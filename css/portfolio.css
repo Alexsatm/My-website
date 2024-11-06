@@ -150,6 +150,28 @@
     font-size: 2em;
 }
 
+.desc-btn {
+    margin-top: 40px;
+}
+
+.desc-btn a {
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.desc-btn a:hover {
+   opacity: 0.8;
+}
+
+.watch {
+    background-color: #44bd18;
+}
+
+.code {
+    background-color: #cc1b3c;
+}
+
 /* media  */
 
 @media screen  and (max-width: 1050px) {
