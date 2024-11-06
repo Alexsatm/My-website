@@ -1,0 +1,232 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+
+html {
+     scroll-behavior: smooth;
+     overflow-x: hidden;
+}
+
+body {
+    background-color: #1e2227;
+    font-size: 21px;
+    padding: 0 20px;
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+    font-family: inherit;
+}
+
+button {
+    transition: all .4s;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 20px;
+    background-color:rgba(16 18 27 / 40%);
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px 1px #747474;
+    min-height: 90vh;
+    background-color: #0d121c;
+}
+
+
+/*Todo ------------header---------------------- */
+
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 35px;
+    margin-bottom: 90px;
+    background-image: linear-gradient(
+        90deg,
+        rgb(118, 167, 63) 0%,
+        rgb(51, 143, 118) 40%,
+        rgb(55, 141, 167) 50%,
+        rgb(117, 152, 242) 70%,
+        rgb(144, 118, 236) 100%
+      );
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding-left: 40px;
+    text-shadow: -1px -1px 1px white, 2px -1px 1px white;
+}
+
+
+.tabs {
+    display: flex;
+    gap: 75px;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+
+.tabsBtn {
+  background-color: inherit;
+  border: 0;
+  font-weight: bold;
+  font-size: 21px;
+  color: white;
+  padding: 10px;
+  cursor:pointer;
+  border-radius: 8px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5),
+  inset 0px 2px 2px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease-in;
+}
+
+.tabsBtn:is(:hover, :focus-visible) {
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5),
+    inset 0px 2px 2px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease-in;
+}
+
+.tabsBtn.activeTab {
+  background-color: #ffffffd4;
+  color:#3b7f1c;
+  transition: all 0.3s ease-in;
+
+}
+
+.tabs__content {
+  min-height: 574px;
+  margin: 30px auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/*Todo------------Section Home-------------*/
+
+.home {
+  max-width: 1200px;
+  transition: all 1s ease-in;
+}
+
+.home__inner {
+  /* padding: 0 20px; */
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.tree {
+    max-width: 360px;
+    max-height: 440px;
+    width: 100%;
+    min-width: 330px;
+    min-height: 410px;
+    height: 100%
+}
+
+.home__left {
+  color: #fff;
+  padding: 0 50px;
+  max-width: 720px;
+}
+
+.home__left > h1 {
+  font-family: "Tilt Neon", sans-serif;
+  font-size: clamp(2.3rem, 5vw, 4rem);
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.gradient-text {
+  font-family: "Tilt Neon", sans-serif;
+  /* background-image: linear-gradient(
+    90deg,
+    rgb(118, 167, 63) 0%,
+    rgb(51, 143, 118) 40%,
+    rgb(55, 141, 167) 50%,
+    rgb(117, 152, 242) 70%,
+    rgb(144, 118, 236) 100%
+  ); */
+
+  background-image: linear-gradient(
+     90deg,
+      rgb(192, 91, 18) 0%,
+      rgb(52, 144, 26) 40%,
+      rgb(55, 141, 167) 50%,
+      rgb(176, 28, 49) 70%,
+      rgb(123, 93, 229) 100% );
+  color: transparent;
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.home__left > p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+
+.title {
+    font-size: 60px;
+    color: var(--third-color);
+    font-weight: 700;
+    text-align: center;
+    text-shadow: var(--text-shadow);
+}
+
+
+/*Todo  ---------About me------------ */
+
+
+
+
+
+/*Todo  ---------Contacts------------ */
+
+
+
+
+/* ------------------------------- */
+
+.tabsItem {
+  display: none;
+  transition: all 1s ease-in;
+}
+
+.tabsItem.activeTab {
+  display: block;
+  transition: all 1s ease-in;
+  margin-bottom: 180px;
+}
+
+/* ?=================================================== */
+/*Todo --------------- Media----------------------------*/
+
+
