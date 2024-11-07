@@ -151,16 +151,25 @@
 }
 
 .desc-btn {
+    display: flex;
+    gap: 12px;
     margin-top: 40px;
 }
 
-.desc-btn a {
+.desc-btn button {
     padding: 12px;
     border-radius: 8px;
     font-weight: bold;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    gap: 5px;
 }
 
-.desc-btn a:hover {
+.desc-btn button:hover {
    opacity: 0.8;
 }
 
