@@ -40,10 +40,9 @@ button {
     box-sizing: border-box;
     overflow: hidden;
     padding: 0 20px;
-    background-color:rgba(16 18 27 / 40%);
     border-radius: 20px;
     box-shadow: 1px 1px 9px 1px #747474;
-    min-height: 90vh;
+    min-height: 900px;
     background-color: #0d121c;
 }
 
@@ -61,14 +60,8 @@ header {
     height: 100px;
     margin-top: 35px;
     margin-bottom: 90px;
-    background-image: linear-gradient(
-        90deg,
-        rgb(118, 167, 63) 0%,
-        rgb(51, 143, 118) 40%,
-        rgb(55, 141, 167) 50%,
-        rgb(117, 152, 242) 70%,
-        rgb(144, 118, 236) 100%
-      );
+    /* background: linear-gradient(90deg, #00467F, #3A7A00); */
+    background: linear-gradient(90deg, #074A24, #10415d, #3A7A00);
 }
 
 .logo {
@@ -223,7 +216,11 @@ header {
 .tabsItem.activeTab {
   display: block;
   transition: all 1s ease-in;
-  margin-bottom: 180px;
+  margin-bottom: 700px;
+}
+
+hr {
+  margin-bottom: 50px;
 }
 
 /* ?=================================================== */
