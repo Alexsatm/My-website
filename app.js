@@ -49,3 +49,8 @@ tabBtns.forEach((tabBtn, i) => {
         tab_Nav(i);
     })
 })
+
+// -------------------------------------------------------
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-carousel' ).mount();
+  } );

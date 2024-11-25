@@ -9,10 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
     <!-- logo -->
-    <link rel="shortcut icon" href="icons/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/icons8-рабочий-стол-32.png" type="image/x-icon">
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <!--  -->
+    <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -490,13 +493,31 @@
                 </div>
               </div>
               <hr>
-              <div>
+              <!-- <div>
                 <h2 class="title">Верстка сайтов</h2>
                 <div class="box-slaider">
                   <img class="box-s-1" src="images/v1.png" alt="">
                 </div>
-              </div>
-              
+              </div> -->
+              <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+                <h2 class="title">Верстка сайтов</h2>
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img src="images/image01.png" alt="">
+                    </li>
+                    <li class="splide__slide">
+                      <img src="images/image02.png" alt="">
+                    </li>
+                    <li class="splide__slide">
+                      <img src="images/image03.png" alt="">
+                    </li>
+                    <li class="splide__slide">
+                      <img src="images/image04.png" alt="">
+                    </li>
+                  </ul>
+                </div>
+              </section>
             </section>
             <!-----------------   About me    ---------------------------------->
             <section id="tab_3" class="tabsItem about_me" role="tabpanel">
@@ -515,8 +536,6 @@
         <footer></footer>
     </div>
     <!--  -->
-    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> -->
-    <!-- <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
     <script src="app.js"></script>
 </body>
 </html>
