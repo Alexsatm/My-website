@@ -247,5 +247,33 @@
     width: 100%;
     height: auto;
     max-width: 950px;
-    border-radius: 8px;
+    border-radius: 40px;
+}
+
+.splide__arrow {
+    width: 50px;
+    height: 50px;
+    top: 32em;
+}
+
+.splide__arrow--prev {
+    left: -2em;
+}
+
+.splide__arrow--next {
+    right: -2em;
+  }
+
+.splide__pagination {
+    bottom: -1.5em;
+  }
+
+.splide:not(.is-overflow) .splide__pagination {
+    display: flex;
+}
+
+.splide__pagination__page {
+    height: 10px;
+    margin: 4px;
+    width: 10px;
 }
